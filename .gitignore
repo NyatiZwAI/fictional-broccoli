@@ -1,0 +1,47 @@
+.env
+
+# dependencies
+node_modules/
+
+google-services.json
+
+# Expo
+.expo/
+.expo-shared
+.cache
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+<<<<<<< HEAD
+=======
+app-example
+.env/
+>>>>>>> 92e66a96c81f2dd39295a11d1ccc3502c01b6016
