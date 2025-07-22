@@ -70,9 +70,9 @@ export default function ProfileScreen() {
         <View style={styles.statsGrid}>
           <Ionicons name="wallet-outline" size={28} color="#4D571D" />
           <Text style={styles.statValue}>R 250.00</Text>
-          <Text style={styles.statLabel}>Stokvel Value</Text>
         </View>
-
+        <View>
+        </View>
         <View style={styles.statCard}>
           <Ionicons name="people-outline" size={28} color="#4D571D" />
           <Text style={styles.statValue}>4</Text>
@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
     color: '#4D571D',
     fontWeight: '600',
   },
-  statGrid: {
+  statsGrid: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
