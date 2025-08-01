@@ -36,7 +36,7 @@ export default function VoiceChat() {
   return (
     <View style={styles.container}>
       {/* Header */}
-      <Text style={styles.title}>Warima DAO Assistant</Text>
+      <Text style={styles.title}>Warima</Text>
 
       {/* Conversation Area */}
       <ScrollView style={styles.chatContainer}>
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    color: '#0F3057',
+    color: '#4D571D',
     textAlign: 'center',
     marginVertical: 15,
   },
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#0F3057',
+    backgroundColor: '#6A5026',
     padding: 15,
     borderRadius: 30,
     gap: 10,
@@ -157,7 +157,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#4A6572',
+    backgroundColor: '#4D571D',
     padding: 15,
     borderRadius: 30,
   },
