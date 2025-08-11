@@ -13,14 +13,14 @@ export async function getAIResponse(prompt: string): Promise<string> {
     const controller = new AbortController();
     const timeoutId = setTimeout(() => controller.abort(), 15000); //15-second timeout
 
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    const response = await fetch('https://api.openai.com/v1/realtime/sessions', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
+        model: 'gpt-4o-realtime-preview-2025-06-03',
         messages: [{
           role: 'user',
           content: prompt.substring(0, 2000) //Truncated to prevent overflow
